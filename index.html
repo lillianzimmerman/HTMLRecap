@@ -7,6 +7,45 @@
     <title>HTML Recap</title>
 </head>
 <body>
+    <nav>
+        <h3>Navigation</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#video">Video</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Cooking Class Signup</h1>
+        <p>
+            Please complete the form below, then hit 'Submit'. 
+        </p>
+    </header>
+
+    <div id="form">
+        <form>
+            <h3>Your Information</h3>
+            <p>Name: <input type="text" required></p>
+            <p>Email: <input type="email" required></p>
+            <p>Age: <input type="number" min="13" max="100"></p>
+        </form>
+
+        <form>
+            <h3>How many years of cooking experience do you have?</h3>
+            <p><input type="radio" name="cookingExperience"> None</p>
+            <p><input type="radio" name="cookingExperience"> Less than 1</p>
+            <p><input type="radio" name="cookingExperience"> 1+</p>
+        </form>
     
+    <div id="video">
+        <h3>Watch below for a free cooking tutorial!</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    
+    <br>
+    
+    <input type="Submit" value="submit">
 </body>
 </html>
